@@ -1,0 +1,218 @@
+17:02:55.467 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/abdallah/Downloads/migrateToLinux/MyCV/IdeaProjects/nopcommerce-testing/testng.xml"
+17:02:55.605 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseTest.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1713978116
+17:02:55.605 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:02:55.606 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:02:55.606 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:02:55.606 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:02:55.607 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:null] 60302499
+17:02:55.607 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:02:55.607 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:02:55.607 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:02:55.607 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:02:55.609 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseTest.postTestcaseExecution(org.testng.ITestResult)[pri:0, instance:null] -1436317899
+17:02:55.609 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:02:55.609 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:02:55.609 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:02:55.609 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:02:55.610 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC001_NopCommerceTransactionFlowTest.testCompleteTransactionFlow(data.TransactionData)[pri:0, instance:testCases.TC001_NopCommerceTransactionFlowTest@58fe0499] 1822436779
+17:02:55.610 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:02:55.610 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:02:55.610 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:02:55.610 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:02:56.944 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:02:56.945 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:02:56.946 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:02:56.994 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+17:02:56.995 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+17:02:56.996 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+17:02:56.996 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+17:02:56.997 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+17:02:56.997 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+17:02:57.001 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+17:02:57.001 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+17:02:57.004 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+17:02:57.004 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+17:02:57.004 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+17:02:57.004 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+17:02:57.005 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+17:02:57.005 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+17:02:57.034 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+17:02:57.034 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+17:02:57.055 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+17:02:57.057 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+17:02:57.058 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+17:02:57.059 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+17:02:57.061 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+17:02:57.062 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+17:02:57.063 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+17:02:57.063 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+17:02:57.064 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+17:02:57.065 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+17:02:57.066 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+17:02:57.067 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+17:02:57.068 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+17:02:57.069 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+17:02:57.070 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+17:02:57.073 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+17:02:57.081 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+17:02:57.083 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+17:02:57.084 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+17:02:57.085 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+17:02:57.085 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+17:02:57.086 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+17:02:57.088 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+17:02:57.090 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+17:02:57.092 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+17:02:57.099 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+17:02:57.100 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+17:02:57.101 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+17:02:57.103 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+17:02:57.109 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlinks6416type
+17:02:57.110 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlink0c85type
+17:02:57.112 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+17:02:57.113 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+17:02:57.115 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+17:02:57.117 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+17:02:57.135 [TestNG-tests-1] INFO  testCases.TC001_NopCommerceTransactionFlowTest - ******** Starting TC001_NopCommerceTransactionFlowTest *******
+17:02:57.136 [TestNG-tests-1] DEBUG testCases.TC001_NopCommerceTransactionFlowTest - Transaction data: TransactionData{gender='Male'firstname='Ali'lastname='Mohamed'email='example8ppo@gmail.com'phone='1.150135437E9', password='password123', searchQuery='samsung', filterQuery='Name: A to Z', product='Samsung Monitor', quantity='2', country='Egypt', zone='Giza', postcode='12617', coupon='2222', address='Ali Mohamed, 5 Tli, Faisal, Giza, Giza, Al Jizah, Egypt'}
+17:02:57.886 [TestNG-tests-1] INFO  testCases.TC001_NopCommerceTransactionFlowTest - Register verified successfully
+17:02:58.063 [TestNG-tests-1] DEBUG testCases.TC001_NopCommerceTransactionFlowTest - Entered search query: samsung
+17:02:58.333 [TestNG-tests-1] INFO  testCases.TC001_NopCommerceTransactionFlowTest - Search results verified for query: samsung
+17:02:58.616 [TestNG-tests-1] DEBUG testCases.TC001_NopCommerceTransactionFlowTest - Applied filter: Name: A to Z
+17:02:58.709 [TestNG-tests-1] INFO  testCases.TC001_NopCommerceTransactionFlowTest - Filter operation verified
+17:03:05.580 [TestNG-tests-1] DEBUG testCases.TC001_NopCommerceTransactionFlowTest - Clicked on product: Samsung Monitor
+17:03:05.996 [TestNG-tests-1] INFO  testCases.TC001_NopCommerceTransactionFlowTest - Product added to cart successfully
+17:03:07.481 [TestNG-tests-1] INFO  testCases.TC001_NopCommerceTransactionFlowTest - Shipping info entered successfully
+17:03:09.321 [TestNG-tests-1] INFO  testCases.TC001_NopCommerceTransactionFlowTest - Confirm order verified successfully
+17:03:09.790 [TestNG-tests-1] INFO  testCases.TC001_NopCommerceTransactionFlowTest - Order exists in order history
+17:03:09.790 [TestNG-tests-1] INFO  testCases.TC001_NopCommerceTransactionFlowTest - ******** Ending TC001_NopCommerceTransactionFlowTest *******
+17:27:28.821 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/home/abdallah/Downloads/migrateToLinux/MyCV/IdeaProjects/nopcommerce-testing/testng.xml"
+17:27:28.962 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseTest.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1713978116
+17:27:28.963 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:27:28.964 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:27:28.964 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:27:28.964 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:27:28.965 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:null] 60302499
+17:27:28.965 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:27:28.965 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:27:28.965 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:27:28.965 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:27:28.967 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseTest.postTestcaseExecution(org.testng.ITestResult)[pri:0, instance:null] -1436317899
+17:27:28.967 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:27:28.967 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:27:28.967 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:27:28.967 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:27:28.968 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC001_NopCommerceTransactionFlowTest.testCompleteTransactionFlow(data.TransactionData)[pri:0, instance:testCases.TC001_NopCommerceTransactionFlowTest@4c550889] 1610035611
+17:27:28.968 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:27:28.969 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:27:28.969 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:27:28.969 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:27:28.971 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/abdallah/Downloads/migrateToLinux/MyCV/IdeaProjects/nopcommerce-testing/testng.xml
+
+17:27:30.251 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:27:30.253 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:27:30.254 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:27:30.328 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+17:27:30.329 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+17:27:30.330 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+17:27:30.330 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+17:27:30.330 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+17:27:30.330 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+17:27:30.335 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+17:27:30.336 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+17:27:30.339 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+17:27:30.339 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+17:27:30.340 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+17:27:30.340 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+17:27:30.341 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+17:27:30.341 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+17:27:30.370 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+17:27:30.370 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+17:27:30.394 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+17:27:30.396 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+17:27:30.398 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+17:27:30.400 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+17:27:30.402 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+17:27:30.402 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+17:27:30.403 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+17:27:30.404 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+17:27:30.405 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+17:27:30.406 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+17:27:30.407 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+17:27:30.408 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+17:27:30.409 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+17:27:30.410 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+17:27:30.412 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+17:27:30.415 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+17:27:30.423 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+17:27:30.426 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+17:27:30.427 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+17:27:30.428 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+17:27:30.429 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+17:27:30.430 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+17:27:30.433 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+17:27:30.438 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+17:27:30.441 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+17:27:30.456 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+17:27:30.457 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+17:27:30.458 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+17:27:30.461 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+17:27:30.463 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlinks6416type
+17:27:30.464 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlink0c85type
+17:27:30.466 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+17:27:30.467 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+17:27:30.470 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+17:27:30.471 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+17:27:30.494 [TestNG-tests-1] INFO  testCases.TC001_NopCommerceTransactionFlowTest - ******** Starting TC001_NopCommerceTransactionFlowTest *******
+17:27:30.494 [TestNG-tests-1] DEBUG testCases.TC001_NopCommerceTransactionFlowTest - Transaction data: TransactionData{gender='Male'firstname='Ali'lastname='Mohamed'email='example8ppo@gmail.com'phone='1.150135437E9', password='password123', searchQuery='samsung', filterQuery='Name: A to Z', product='Samsung Monitor', quantity='2', country='Egypt', zone='Giza', postcode='12617', coupon='2222', address='Ali Mohamed, 5 Tli, Faisal, Giza, Giza, Al Jizah, Egypt'}
+17:27:41.318 [TestNG-tests-1] ERROR testCases.TC001_NopCommerceTransactionFlowTest - An error occurred during the test execution
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='result']"}
+  (Session info: MicrosoftEdge=132.0.2957.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-52-generic', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [46658c79c484355f03cf4011b5d9590b, findElement {value=//div[@class='result'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.140, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:46435}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: /tmp/.com.microsoft.Edge.Iw...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 132.0.2957.140, se:containerName: e849a331ef88, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46658c79c484355f03cf4011b5d9590b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy32.getText(Unknown Source) ~[?:?]
+	at pages.RegisterPage.verifyRegisterAttempt(RegisterPage.java:65) ~[test-classes/:?]
+	at testCases.TC001_NopCommerceTransactionFlowTest.testCompleteTransactionFlow(TC001_NopCommerceTransactionFlowTest.java:53) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+17:27:41.323 [TestNG-tests-1] INFO  testCases.TC001_NopCommerceTransactionFlowTest - ******** Ending TC001_NopCommerceTransactionFlowTest *******
