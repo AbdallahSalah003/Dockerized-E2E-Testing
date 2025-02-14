@@ -3,12 +3,14 @@
 This project is designed to execute end-to-end automation test cases
 for NopCommerce using a distributed model with Docker and Selenium Grid.
 </i></h3>
+
 ---
 
 ## Framework Design
 <img src="./src/test/resources/Framework_Design.jpg" alt="design"/>
 
 ---
+
 ## 🛠️ Technologies
 <h4>
 
