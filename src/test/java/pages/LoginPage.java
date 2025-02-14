@@ -19,14 +19,14 @@ public class LoginPage extends BasePage {
         }
         return instance;
     }
-    @FindBy(id="input-email")
+    @FindBy(id="Email")
     WebElement emailInputField;
-    @FindBy(id="input-password")
+    @FindBy(id="Password")
     WebElement passwordInputField;
-    @FindBy(css="button[class='btn btn-primary']")
+    @FindBy(css="button[class='button-1 login-button']")
     WebElement loginBtn;
-    @FindBy(css="div[id='content'] h1")
-    WebElement loginVerificationMsg;
+    @FindBy(css=".ico-logout")
+    WebElement loginVerification;
     public void enterEmail(String email) {
         emailInputField.sendKeys(email);
     }
@@ -37,6 +37,6 @@ public class LoginPage extends BasePage {
         loginBtn.click();
     }
     public boolean verifyLogin() {
-        return loginVerificationMsg.isDisplayed();
+        return loginVerification.isDisplayed();
     }
 }

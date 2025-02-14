@@ -1,4 +1,5 @@
 package utils;
+import data.SearchData;
 import data.TransactionData;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -54,7 +55,35 @@ public class ExcelUtils {
 
         return transactionDataList;
     }
+	public static List<SearchData> readSearchData(String filepath) {
+		List<SearchData> searchDataList = new ArrayList<>();
+		try (FileInputStream file = new FileInputStream(filepath);
+			 Workbook workbook = new XSSFWorkbook(file)) {
 
+			Sheet sheet = workbook.getSheetAt(0);
+			Iterator<Row> rowIterator = sheet.iterator();
+
+			if (rowIterator.hasNext()) {
+				rowIterator.next();
+			}
+
+			while (rowIterator.hasNext()) {
+				Row row = rowIterator.next();
+				Iterator<Cell> cellIterator = row.cellIterator();
+
+				String email = getCellValueAsString(cellIterator.next());
+				String password = getCellValueAsString(cellIterator.next());
+				String searchQuery = getCellValueAsString(cellIterator.next());
+
+				SearchData data = new SearchData(email, password, searchQuery);
+				searchDataList.add(data);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return searchDataList;
+	}
     private static String getCellValueAsString(Cell cell) {
         switch (cell.getCellType()) {
             case STRING:

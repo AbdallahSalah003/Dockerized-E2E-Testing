@@ -32,6 +32,8 @@ public class SearchResultsPage extends BasePage {
     List<WebElement> productsList;
     @FindBy(xpath="//input[@id='q']")
     WebElement verifySearchAttempt;
+	@FindBy(css=".no-result")
+	WebElement noResultsFoundMsg;
 
     public void filterSortByOption(String option) {
         // option example : Rating (Highest)
@@ -60,4 +62,7 @@ public class SearchResultsPage extends BasePage {
                     return ascending ? comparison <= 0 : comparison >= 0;
                 });
     }
+	public boolean verifyNoResultsFoundMsg() {
+		return noResultsFoundMsg.isDisplayed() && noResultsFoundMsg.getText().contains("No products were found");
+	}
 }

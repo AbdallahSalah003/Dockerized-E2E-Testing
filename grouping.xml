@@ -12,7 +12,7 @@
 	        <parameter name="os" value="Windows"/>
 	        <parameter name="browser" value="chrome"/>
 	        <classes>
-	            <class name="testCases.TC001_NopCommerceTransactionFlowTest"/>
+	            <class name="testCases.TC001_TransactionFlowTest"/>
 	        </classes>
 	    </test>
 
@@ -20,7 +20,7 @@
 			<parameter name="os" value="Windows"/>
 			<parameter name="browser" value="edge"/>
 			<classes>
-				<class name="testCases.TC001_NopCommerceTransactionFlowTest"/>
+				<class name="testCases.TC001_TransactionFlowTest"/>
 			</classes>
 		</test>
 

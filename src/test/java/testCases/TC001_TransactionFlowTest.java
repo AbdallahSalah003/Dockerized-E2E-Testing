@@ -1,20 +1,15 @@
 package testCases;
 
 import data.TransactionData;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.*;
 import utils.ExcelUtils;
 
-import java.io.File;
 import java.util.List;
 
-public class TC001_NopCommerceTransactionFlowTest extends BaseTest {
+public class TC001_TransactionFlowTest extends BaseTest {
 	HomePage homePage;
 	SearchResultsPage searchResultsPage;
 	ProductPage productPage;
@@ -37,7 +32,7 @@ public class TC001_NopCommerceTransactionFlowTest extends BaseTest {
      */
     @Test(dataProvider="flow_data", groups = {"Regression", "Master"})
     public void testCompleteTransactionFlow(TransactionData data) {
-        logger.info("******** Starting TC001_NopCommerceTransactionFlowTest *******");
+        logger.info("******** Starting TC001_TransactionFlowTest *******");
         logger.debug("Transaction data: {}", data);
         try {
 			homePage = HomePage.getInstance(driver);
@@ -109,7 +104,7 @@ public class TC001_NopCommerceTransactionFlowTest extends BaseTest {
             logger.error("An error occurred during the test execution", e);
             Assert.fail();
         } finally {
-            logger.info("******** Ending TC001_NopCommerceTransactionFlowTest *******");
+            logger.info("******** Ending TC001_TransactionFlowTest *******");
         }
     }
     @DataProvider(name = "flow_data")

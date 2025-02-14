@@ -24,6 +24,8 @@ public class HomePage extends BasePage {
     }
 	@FindBy(css=".ico-register")
 	WebElement registerLnk;
+	@FindBy(css=".ico-login")
+	WebElement loginLnk;
     @FindBy(css=".ico-account")
 	WebElement myAccountLnk;
 	@FindBy(css=".wishlist-label")
@@ -52,16 +54,5 @@ public class HomePage extends BasePage {
 	public void clickOnSearchButton() {
 		searchButton.click();
 	}
-//    public void clickOnMyAccountDropdown() {
-//        wait.until( mydriver -> {
-//            try {
-//                myAccountDropdown.click();
-//                return true;
-//            } catch (Exception e) {
-//                return null;
-//            }
-//        });
-//    }
-//	((JavascriptExecutor) driver).executeScript("arguments[0].click();", orderHistoryDropdownOption);
-
+	public void clickOnLoginLnk() {loginLnk.click();}
 }
