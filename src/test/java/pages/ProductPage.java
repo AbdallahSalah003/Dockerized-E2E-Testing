@@ -24,7 +24,7 @@ public class ProductPage extends BasePage {
     @FindBy(css="input.qty-input")
     WebElement qtyInputField;
     @FindBy(css=".content")
-    WebElement addToCartConfirmMessage;
+    WebElement popUpMessageBox;
 	@FindBy(css="span[title='Close']")
 	WebElement closeConfirmMsgBtn;
 	@FindBy(css="p[class='content'] a")
@@ -36,13 +36,16 @@ public class ProductPage extends BasePage {
         qtyInputField.sendKeys(qty);
     }
     public boolean verifyAddToCartOperation() {
-        return addToCartConfirmMessage.isDisplayed()
-			&& addToCartConfirmMessage.getText().contains("The product has been added");
+        return popUpMessageBox.isDisplayed()
+			&& popUpMessageBox.getText().contains("The product has been added");
     }
 	public void clickOnCloseConfirmMessage() {
 		closeConfirmMsgBtn.click();
 	}
 	public void clickOnShoppingCartFromConfirmMessage() {
 		CartLnkAddToCartConfirmMsg.click();
+	}
+	public boolean verifyOutOfStockMsg() {
+		return popUpMessageBox.isDisplayed() && popUpMessageBox.getText().contains("Out of stock");
 	}
 }

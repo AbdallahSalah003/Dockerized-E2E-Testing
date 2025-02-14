@@ -14,7 +14,7 @@
 19:08:52.084 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
 19:08:52.084 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
 19:08:52.084 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-19:08:52.086 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC002_SearchingTest.testInvalidSearching(data.SearchData)[pri:0, instance:testCases.TC002_SearchingTest@3a3e4aff] 2082587802
+19:08:52.086 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC002_SearchingTest.testInvalidSearching(data.TC002_Data)[pri:0, instance:testCases.TC002_SearchingTest@3a3e4aff] 2082587802
 19:08:52.086 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
 19:08:52.086 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
 19:08:52.086 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
@@ -75,7 +75,7 @@
 19:08:53.585 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
 19:08:53.586 [TestNG-tests-1] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
 19:08:53.603 [TestNG-tests-1] INFO  testCases.TC002_SearchingTest - ******** Starting TC002_SearchingTest *******
-19:08:53.603 [TestNG-tests-1] DEBUG testCases.TC002_SearchingTest - Test Case Data: TC002_SearchingTest Data: 
+19:08:53.603 [TestNG-tests-1] DEBUG testCases.TC002_SearchingTest - Test Case Data: TC002_SearchingTest Data:
 Email: example8ppo@gmail.com
 Password: password123
 Search: Lenovo Ideapad

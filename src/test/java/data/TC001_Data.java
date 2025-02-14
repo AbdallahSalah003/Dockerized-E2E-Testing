@@ -1,6 +1,6 @@
 package data;
 
-public class TransactionData {
+public class TC001_Data {
 	private String gender;
 	private String firstName;
 	private String lastName;
@@ -17,8 +17,8 @@ public class TransactionData {
     private String address;
 	private String phone;
 
-    public TransactionData(String gender, String firstName, String lastName, String email, String phone, String password, String searchQuery, String filterQuery, String product,
-                           String quantity, String country, String zone, String postcode, String coupon, String address) {
+    public TC001_Data(String gender, String firstName, String lastName, String email, String phone, String password, String searchQuery, String filterQuery, String product,
+					  String quantity, String country, String zone, String postcode, String coupon, String address) {
         this.gender = gender;
 		this.firstName = firstName;
 		this.lastName = lastName;

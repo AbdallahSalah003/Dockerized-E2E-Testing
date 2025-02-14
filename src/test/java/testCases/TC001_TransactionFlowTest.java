@@ -1,6 +1,6 @@
 package testCases;
 
-import data.TransactionData;
+import data.TC001_Data;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -31,7 +31,7 @@ public class TC001_TransactionFlowTest extends BaseTest {
      *   User checks the order history to ensure the order is recorded correctly.
      */
     @Test(dataProvider="flow_data", groups = {"Regression", "Master"})
-    public void testCompleteTransactionFlow(TransactionData data) {
+    public void testCompleteTransactionFlow(TC001_Data data) {
         logger.info("******** Starting TC001_TransactionFlowTest *******");
         logger.debug("Transaction data: {}", data);
         try {
@@ -109,7 +109,7 @@ public class TC001_TransactionFlowTest extends BaseTest {
     }
     @DataProvider(name = "flow_data")
     public Object[][] provideHappyFlowData() {
-        List<TransactionData> transactionDataList = ExcelUtils.readTransactionData("./testdata/TC001_TestData.xlsx");
+        List<TC001_Data> transactionDataList = ExcelUtils.readTC001Data("./testdata/TC001_TestData.xlsx");
 
         Object[][] data = new Object[transactionDataList.size()][1];
         for (int i = 0; i < transactionDataList.size(); i++) {

@@ -1,6 +1,7 @@
 package utils;
-import data.SearchData;
-import data.TransactionData;
+import data.TC002_Data;
+import data.TC001_Data;
+import data.TC003_Data;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -12,8 +13,8 @@ import java.util.List;
 
 public class ExcelUtils {
 
-    public static List<TransactionData> readTransactionData(String filePath) {
-        List<TransactionData> transactionDataList = new ArrayList<>();
+    public static List<TC001_Data> readTC001Data(String filePath) {
+        List<TC001_Data> transactionDataList = new ArrayList<>();
 
         try (FileInputStream file = new FileInputStream(filePath);
              Workbook workbook = new XSSFWorkbook(file)) {
@@ -45,7 +46,7 @@ public class ExcelUtils {
                 String coupon = getCellValueAsString(cellIterator.next()).replace(".0","");
                 String address = getCellValueAsString(cellIterator.next());
 
-                TransactionData data = new TransactionData(gender, firstname, lastname, email, phone, password, searchQuery, filterQuery, product,
+                TC001_Data data = new TC001_Data(gender, firstname, lastname, email, phone, password, searchQuery, filterQuery, product,
                         quantity, country, zone, postcode, coupon, address);
                 transactionDataList.add(data);
             }
@@ -55,8 +56,8 @@ public class ExcelUtils {
 
         return transactionDataList;
     }
-	public static List<SearchData> readSearchData(String filepath) {
-		List<SearchData> searchDataList = new ArrayList<>();
+	public static List<TC002_Data> readTC002Data(String filepath) {
+		List<TC002_Data> searchDataList = new ArrayList<>();
 		try (FileInputStream file = new FileInputStream(filepath);
 			 Workbook workbook = new XSSFWorkbook(file)) {
 
@@ -75,7 +76,7 @@ public class ExcelUtils {
 				String password = getCellValueAsString(cellIterator.next());
 				String searchQuery = getCellValueAsString(cellIterator.next());
 
-				SearchData data = new SearchData(email, password, searchQuery);
+				TC002_Data data = new TC002_Data(email, password, searchQuery);
 				searchDataList.add(data);
 			}
 		} catch (IOException e) {
@@ -83,6 +84,35 @@ public class ExcelUtils {
 		}
 
 		return searchDataList;
+	}
+	public static List<TC003_Data> readTC003Data(String filepath) {
+		List<TC003_Data> dataList = new ArrayList<>();
+		try (FileInputStream file = new FileInputStream(filepath);
+			 Workbook workbook = new XSSFWorkbook(file)) {
+
+			Sheet sheet = workbook.getSheetAt(0);
+			Iterator<Row> rowIterator = sheet.iterator();
+
+			if (rowIterator.hasNext()) {
+				rowIterator.next();
+			}
+
+			while (rowIterator.hasNext()) {
+				Row row = rowIterator.next();
+				Iterator<Cell> cellIterator = row.cellIterator();
+
+				String email = getCellValueAsString(cellIterator.next());
+				String password = getCellValueAsString(cellIterator.next());
+				String product = getCellValueAsString(cellIterator.next());
+
+				TC003_Data data = new TC003_Data(email, password, product);
+				dataList.add(data);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return dataList;
 	}
     private static String getCellValueAsString(Cell cell) {
         switch (cell.getCellType()) {

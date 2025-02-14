@@ -1,6 +1,6 @@
 package testCases;
 
-import data.SearchData;
+import data.TC002_Data;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -22,7 +22,7 @@ public class TC002_SearchingTest extends BaseTest{
 	 *   User should see a message stating that there is no match products.
 	 */
 	@Test(dataProvider="search_data", groups = {"Regression", "Master"})
-	public void testInvalidSearching(SearchData data) {
+	public void testInvalidSearching(TC002_Data data) {
 		logger.info("******** Starting TC002_SearchingTest *******");
 		logger.debug("Test Case Data: {}", data);
 		try {
@@ -56,7 +56,7 @@ public class TC002_SearchingTest extends BaseTest{
 	}
 	@DataProvider(name = "search_data")
 	public Object[][] provideHappyFlowData() {
-		List<SearchData> searchDataList = ExcelUtils.readSearchData("./testdata/TC002_TestData.xlsx");
+		List<TC002_Data> searchDataList = ExcelUtils.readTC002Data("./testdata/TC002_TestData.xlsx");
 
 		Object[][] data = new Object[searchDataList.size()][1];
 		for (int i = 0; i < searchDataList.size(); i++) {

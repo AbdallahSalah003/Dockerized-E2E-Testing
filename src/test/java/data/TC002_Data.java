@@ -1,10 +1,10 @@
 package data;
 
-public class SearchData {
+public class TC002_Data {
 	private String email;
 	private String password;
 	private String searchQuery;
-	public SearchData(String email, String password, String searchQuery) {
+	public TC002_Data(String email, String password, String searchQuery) {
 		this.email = email;
 		this.password = password;
 		this.searchQuery = searchQuery;
